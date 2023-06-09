@@ -9,7 +9,6 @@ export default {
       <button type="button" class="btn btn-danger w-25 h-25 btn-lg" id="comenzar">Pulsa en cada pokemon para ganar puntos</button>
     </div>
   `,
-  //template: '<div id="boton"><button type="button" class="btn btn-dark" id="comenzar">Comenzar juego</button></div>',
   script: () => {
     const pokemons = []
 
