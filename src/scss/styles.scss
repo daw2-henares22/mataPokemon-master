@@ -1,0 +1,54 @@
+// Import all of Bootstrap's CSS
+@import "~bootswatch/dist/superhero/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/superhero/bootswatch";
+
+#boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #comenzar {
+    padding: 20px 40px;
+    font-size: 24px;
+  }
+
+  #comenzar.boton-grande {
+    font-size: 32px;
+    padding: 30px 60px;
+  }
+
+  .imagenCentro{
+    background-color: black;
+}
+body{
+    background: white;
+    color: black;
+}
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
+h3{
+    color: black;
+}
+p,th{
+    color: black;
+}
+label{
+    color: white;
+}
+h5{
+    color: white;
+}
+tr{
+    color: black;
+}
+span{
+    color: black;
+}
